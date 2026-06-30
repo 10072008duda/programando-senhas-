@@ -56,4 +56,12 @@
     width: 20px;
     height: 20px;
     cursor: pointer;
-}
+}<input name="senha" type="text" id="campo-senha" readonly
+     >const campoSenha = document.querySelector('#campo-senha');
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
+
+campoSenha.value = letrasMaiusculas;function geraSenha(){
+    let numeroAleatorio = Math.random()*letrasMaiusculas.length;
+    console.log(numeroAleatorio);
+}const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
+geraSenha();
